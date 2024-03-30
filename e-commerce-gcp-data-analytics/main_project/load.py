@@ -4,7 +4,7 @@ from google.cloud import bigquery
 from google.api_core.exceptions import NotFound
 
 # Set Google Cloud credentials
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'test-gcp-project-414323-18c555e44f58.json'
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = '/path/to/your/service-account-key.json'
 
 # Initialize Google Cloud Storage client
 storage_client = storage.Client()
