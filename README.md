@@ -58,7 +58,7 @@ The goal of this project is to demonstrate a data engineering pipeline for proce
 
 3. Check the BigQuery table to verify that the data has been loaded successfully.
 
-4. Optionally, create a dashboard using visualization tools like Tableau to analyze sales and revenue trends.
+4. Optionally, create a dashboard using visualization tools like Looker Studio or Tableau to analyze sales and revenue trends.
 
 ## Configuration
 
