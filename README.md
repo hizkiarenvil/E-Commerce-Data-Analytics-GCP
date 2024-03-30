@@ -66,8 +66,5 @@ The goal of this project is to demonstrate a data engineering pipeline for proce
 
 ## Credits
 
-This project was created by [Your Name].
+This project was created Hizkia(Renvil)Sekeon and thanks for Kaggle for the FREE dataset!!!.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
