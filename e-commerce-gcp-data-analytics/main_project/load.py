@@ -68,6 +68,7 @@ uri = f"gs://{bucket_name}/dataset_renvil.csv"  # Ensure correct GCS path
 # Load data from Cloud Storage into BigQuery table
 load_job = client.load_table_from_uri(uri, table_ref, job_config=job_config)
 
+
 # Wait for the job to complete
 try:
     load_job.result()
