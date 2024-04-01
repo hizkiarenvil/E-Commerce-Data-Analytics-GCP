@@ -24,6 +24,7 @@ for col in numeric_cols:
     df[col].fillna(df[col].mean(), inplace=True)
 
 # Step 2: Remove Duplicates
+
 # Check for duplicate rows
 duplicate_rows = df[df.duplicated()]
 print('\nDuplicate Rows:')
