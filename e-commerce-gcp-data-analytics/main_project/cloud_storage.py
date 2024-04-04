@@ -9,6 +9,5 @@ def create_bucket(gcs_test_ecommerce):
 
     print(f'Bucket {gcs_test_ecommerce} created!')
 
-
 if __name__ == '__main__':
     create_bucket('gcs_test_ecommerce')
