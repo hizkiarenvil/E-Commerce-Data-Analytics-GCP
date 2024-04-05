@@ -10,7 +10,6 @@ print(df.head())
 # except FileNotFoundError:
 #     print("CSV file not found. Please check the file path.")
 
-
 # Check for missing values
 missing_values = df.isnull().sum()
 print('Missing Values:')
