@@ -3,6 +3,7 @@ from google.cloud import storage
 from google.cloud import bigquery
 from google.api_core.exceptions import NotFound
 
+
 # Set Google Cloud credentials
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = '/path/to/your/service-account-key.json'
 
