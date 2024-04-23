@@ -4,11 +4,11 @@ df = pd.read_csv('e_commerce_data.csv', encoding='latin1')
 
 print(df.head())
 
-# Error Handling TEST
-# try:
-#     df = pd.read_csv('e-commerce-data.csv', encoding='latin1')
-# except FileNotFoundError:
-#     print("CSV file not found. Please check the file path.")
+ Error Handling TEST
+ try:
+     df = pd.read_csv('e-commerce-data.csv', encoding='latin1')
+ except FileNotFoundError:
+     print("CSV file not found. Please check the file path.")
 
 # Check for missing values
 missing_values = df.isnull().sum()
