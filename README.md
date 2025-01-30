@@ -4,6 +4,7 @@
 
 This repository contains the code for a data engineering project that involves uploading a CSV file to Google Cloud Storage (GCS) and then loading it into a BigQuery table. The project also includes creating a dataset in BigQuery, processing the data within BigQuery, and delivering the data to be analyzed in Looker Studio.
 
+
 ## Project Dashboard
 ![E Commerce Monthly Report](https://github.com/hizkiarenvil/E-Commerce-Data-Analytics-GCP/raw/main/e-commerce-gcp-data-analytics/Report/E%20Commerce%20Monthly%20Report.jpg)
 
